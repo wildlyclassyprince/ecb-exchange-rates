@@ -3,6 +3,12 @@
 ECB Exchange Rates Pipeline
 
 ## Setup
+First, create a `.env` file that we'll use to store database credentials:
+```bash
+cp .env.example .env
+```
+Then fill in the placeholders with database credentials and values.
+
 Run the following command to create a virtual environment and install required packages:
 
 ```bash
